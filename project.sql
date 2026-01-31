@@ -30,3 +30,10 @@ WHERE cuisine = 'Italian'
 SELECT *
 FROM nomnom
 WHERE name LIKE '%meatball%';
+
+-- Task 8
+SELECT *
+FROM nomnom
+WHERE neighborhood = 'Midtown'
+  OR neighborhood = 'Downtown'
+  OR neighborhood = 'Chinatown';
