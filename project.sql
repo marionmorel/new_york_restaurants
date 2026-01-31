@@ -14,3 +14,8 @@ FROM nomnom;
 SELECT *
 FROM nomnom
 WHERE cuisine = 'Chinese';
+
+-- Task 5
+SELECT *
+FROM nomnom
+WHERE review >= 4;
