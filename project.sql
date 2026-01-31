@@ -5,3 +5,7 @@ FROM nomnom;
 -- Task 2
 SELECT DISTINCT neighborhood
 FROM nomnom;
+
+-- Task 3
+SELECT DISTINCT cuisine
+FROM nomnom;
