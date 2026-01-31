@@ -1,3 +1,7 @@
 -- Task 1
 SELECT * 
-FROM nomnom
+FROM nomnom;
+
+-- Task 2
+SELECT DISTINCT neighborhood
+FROM nomnom;
