@@ -37,3 +37,8 @@ FROM nomnom
 WHERE neighborhood = 'Midtown'
   OR neighborhood = 'Downtown'
   OR neighborhood = 'Chinatown';
+
+-- Task 9
+SELECT *
+FROM nomnom
+WHERE health IS NULL;
