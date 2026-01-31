@@ -9,3 +9,8 @@ FROM nomnom;
 -- Task 3
 SELECT DISTINCT cuisine
 FROM nomnom;
+
+-- Task 4
+SELECT *
+FROM nomnom
+WHERE cuisine = 'Chinese';
