@@ -25,3 +25,8 @@ SELECT *
 FROM nomnom
 WHERE cuisine = 'Italian'
   AND price = '$$$';
+
+-- Task 7
+SELECT *
+FROM nomnom
+WHERE name LIKE '%meatball%';
